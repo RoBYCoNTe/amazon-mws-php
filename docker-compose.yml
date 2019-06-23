@@ -1,0 +1,20 @@
+version: '3'
+services:     
+  web:
+    build: ./docker/nginx
+    ports:
+      - "8880:80"
+    volumes:
+      - "./app:/app:cached"  # Se non chiami il volume "app" non funziona un cazzo.
+      - "./docker/nginx/site.conf:/etc/nginx/conf.d/site.conf:cached"
+    links:
+      - php
+    # Questi due parametri servono per attivare la shell SSH sulla macchina!
+    stdin_open: true
+    tty: true
+  php:
+    build: ./docker/php
+    ports:
+      - "9000:9000"
+    volumes:
+      - "./app:/app:cached"

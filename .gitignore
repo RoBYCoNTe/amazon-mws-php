@@ -1,0 +1,7 @@
+# My local copies.
+app/simulate.php
+app/AmazonMarketplace/Program.php
+
+# Staging folder is not necessary.
+app/AmazonMarketplace/Mwse/Staging/FeedReslts/*.xml
+app/AmazonMarketplace/Mwse/Staging/FeedSubmissions/*.xml

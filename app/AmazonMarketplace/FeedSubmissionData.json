@@ -1,0 +1,14 @@
+[
+    {
+        "submission_id": "51737018041",
+        "request": "\"{\\\"marketplaceId\\\":\\\"APJ6JRA9NG5V4\\\",\\\"feed\\\":\\\"<?xml version=\\\\\\\"1.0\\\\\\\"?>\\\\n<AmazonEnvelope><Header><DocumentVersion>1.01<\\\\\\\/DocumentVersion><MerchantIdentifier>MERCHANTID<\\\\\\\/MerchantIdentifier><\\\\\\\/Header><MessageType>Product<\\\\\\\/MessageType><Message><MessageID>1<\\\\\\\/MessageID><OperationType>Update<\\\\\\\/OperationType><Product><ItemPackageQuantity>1<\\\\\\\/ItemPackageQuantity><NumberOfItems>1<\\\\\\\/NumberOfItems><DescriptionData><Title>My awesome product<\\\\\\\/Title><Brand>My Digital Print<\\\\\\\/Brand><BulletPoint>Item 1<\\\\\\\/BulletPoint><BulletPoint>Item 2<\\\\\\\/BulletPoint><BulletPoint>Item 3<\\\\\\\/BulletPoint><PackageDimensions><Length unitOfMeasure=\\\\\\\"CM\\\\\\\">10<\\\\\\\/Length><Width unitOfMeasure=\\\\\\\"CM\\\\\\\">10<\\\\\\\/Width><Height unitOfMeasure=\\\\\\\"CM\\\\\\\">10<\\\\\\\/Height><\\\\\\\/PackageDimensions><MaxOrderQuantity>1<\\\\\\\/MaxOrderQuantity><Manufacturer>Roberto<\\\\\\\/Manufacturer><ItemType>Shirt<\\\\\\\/ItemType><RecommendedBrowseNode>2893334031<\\\\\\\/RecommendedBrowseNode><\\\\\\\/DescriptionData><ProductData><Clothing><VariationData><Parentage>child<\\\\\\\/Parentage><Color>Yellow<\\\\\\\/Color><VariationTheme>Color<\\\\\\\/VariationTheme><\\\\\\\/VariationData><ClassificationData><Size>XL<\\\\\\\/Size><ClothingType>Shirt<\\\\\\\/ClothingType><Department>Department?<\\\\\\\/Department><MaterialComposition>Cotone<\\\\\\\/MaterialComposition><OuterMaterial>Sintetico<\\\\\\\/OuterMaterial><IsCustomizable>false<\\\\\\\/IsCustomizable><CountryName>Italy<\\\\\\\/CountryName><NeckSize unitOfMeasure=\\\\\\\"CM\\\\\\\">10<\\\\\\\/NeckSize><\\\\\\\/ClassificationData><\\\\\\\/Clothing><\\\\\\\/ProductData><ShippedByFreight>false<\\\\\\\/ShippedByFreight><\\\\\\\/Product><\\\\\\\/Message><\\\\\\\/AmazonEnvelope>\\\\n\\\"}\"",
+        "response": "\"{}\"",
+        "status": "failed",
+        "fields": {
+            "crc32": 4042576242,
+            "result_code": "Error",
+            "result_message_code": "5000",
+            "result_description": "XML Parsing Error at Line 2, Column 258: cvc-complex-type.2.4.a: Invalid content was found starting with element 'ItemPackageQuantity'. One of '{SKU}' is expected."
+        }
+    }
+]
