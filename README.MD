@@ -7,7 +7,7 @@ most of them use the old CSV file submitting process and I don't like that.
 
 ## What this project aims to do?
 Is just a workbench, a repository that you can clone and use with docker to made your own
-experiments using amazon marketplace webs services. I've mapped few products required by
+experiments using amazon marketplace web services. I've mapped few products required by
 myself, if you want, you can help me doing the same for remaining products (they are too much).
 
 ## Help me.
@@ -18,9 +18,19 @@ help me too finishing what I've started: complete the list of products to map.
 This project uses docker. To start using it clone the repo and write following command:
 
 - Open your svchost file and add new line: mws.local 127.0.0.1
-- exec docker-compose up
+- exec `docker-compose up` in the root directory to get it run!
 
-## Basic Usage.
+# Config
+You have to configure simulation environment to get your tests working. To do that:
+- Edit app/AmazonMarketplace/Program.template.php, insert your reseller dev account settings and save it as Program.php
+- Edit simulate.template.php inserting the same data mentioned before and save it as simulate.php 
+
+After that you will have two endpoint usable to make your own tests:
+- http://localhost:8880/simulate.php: you can edit the content of this page to make your own experiments, simulate uses a JSON queue to handle all requests related to product submissions.
+- http://localhost:8880/AmazonMarketplace/Program.php: you can make your own tests based on what I've made in the app/AmazonMarketplace/Tests folder. I've covered what I need for my pourpose. 
+
+Please, the best documentation I can provide is my code. Hope this can help. 
+
 
 ## Create Product
 
