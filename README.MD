@@ -1,4 +1,6 @@
-# Read Me, please!
+# Amazon Marketplace Web Services (PHP)
+
+## Please README
 This is just an experiment. In the last year I've worked on few new projects
 related to "Amazon Marketplace Web Service" and I've found lot of confusion about feed's submission process.
 Online you can find lot of examples and libraries that can helps in the process of submitting
